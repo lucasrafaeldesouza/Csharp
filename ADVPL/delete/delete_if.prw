@@ -15,5 +15,3 @@ if (diaquente = .T. .OR. carroOk = .T.)
 ENDIF
 
 RETURN
-
-
