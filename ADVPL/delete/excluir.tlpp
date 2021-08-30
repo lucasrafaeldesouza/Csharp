@@ -92,5 +92,3 @@
     else
             MsgStop("ACESSO NEGADO", "AVISO")
     ENDIF
-
-    
