@@ -30,12 +30,12 @@
 
     @7,@10 SAY "Username:" OF oDlg PIXEL
     @05,@44 GET oGet VAR cNome Valid(U_VALIDAR(cNome)) OF oDlg SIZE 60,10 PIXEL
-    //@4,@120 BUTTON uBotao PROMPT "OK" OF aDlg PIXEL SIZE 28,14 ACTION Alert("Seu usuario È: " + cNome)
+    //@4,@120 BUTTON uBotao PROMPT "OK" OF aDlg PIXEL SIZE 28,14 ACTION Alert("Seu usuario √©: " + cNome)
 
 
     @23,@10 SAY "Passaword:" OF oDlg PIXEL
     @20,@44 GET oGet VAR cSen Valid(U_VALDE(cSen)) OF oDlg SIZE 60,10 PIXEL
-    //@19,@120 BUTTON uBotao PROMPT "OK" OF aDlg PIXEL SIZE 28,14 ACTION Alert("Sua senha È: " + cSenha)
+    //@19,@120 BUTTON uBotao PROMPT "OK" OF aDlg PIXEL SIZE 28,14 ACTION Alert("Sua senha √©: " + cSenha)
 
 
     @34,@75 BUTTON uBotao4 PROMPT "OK" OF aDlg PIXEL SIZE 28,14
@@ -44,20 +44,19 @@
 
     cEmail := Space(30)
 
-    DEFINE MSDIALOG aDlg TITLE "QUESTION¡RIO"
+    DEFINE MSDIALOG aDlg TITLE "QUESTION√ÅRIO"
     aDlg:nWidth:= 350
     aDlg:nHeight:= 220
 
 
-
-    @8,@12 SAY "VOC  GOSTA DESSE SISTEMA? " OF aDlg PIXEL
+    @8,@12 SAY "VOC√ä GOSTA DESSE SISTEMA? " OF aDlg PIXEL
     @5,@129 BUTTON uBotao PROMPT "SIM" OF aDlg PIXEL SIZE 28,14
-    @5,@95 BUTTON uBotao PROMPT "N√O" OF aDlg PIXEL SIZE 28,14
+    @5,@95 BUTTON uBotao PROMPT "N√ÉO" OF aDlg PIXEL SIZE 28,14
    // @06,@60 GET aGet VAR cEmail Valid(U_vEmail(cEmail)) OF aDlg SIZE 70,10 PIXEL
 
-    @28,@12 SAY "VOC  SABE USAR O SISTEMA? " OF aDlg PIXEL
+    @28,@12 SAY "VOC√ä SABE USAR O SISTEMA? " OF aDlg PIXEL
     @25,@129 BUTTON uBotao PROMPT "SIM" OF aDlg PIXEL SIZE 28,14
-    @25,@95 BUTTON uBotao PROMPT "N√O" OF aDlg PIXEL SIZE 28,14
+    @25,@95 BUTTON uBotao PROMPT "N√ÉO" OF aDlg PIXEL SIZE 28,14
 
 
     ACTIVATE MSDIALOG aDlg CENTERED
@@ -95,16 +94,3 @@
     ENDIF
 
     
-
-    
-
-        
-       
-
-
-
-
-
-
-
-
