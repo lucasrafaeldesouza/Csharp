@@ -1,0 +1,11 @@
+nTop = Numérico = Indica a coordenada vertical superior do objeto.
+nLeft = Numérico = Indica a coordenada horizontal à esquerda do objeto.
+nBottom = Numérico = Indica a coordenada vertical inferior do objeto.
+nRight = Numérico = Indica a coordenada horizontal à direita do objeto.
+oWnd = Objeto = Indica a janela ou controle visual onde o objeto será criado.
+bChange = Bloco de código = Indica o bloco de código que será executado quando o estado ou conteúdo do objeto é modificado pela ação sobre o controle visual.
+bRClick = Bloco de código = Indica o bloco de código que será executado quando clicar, com o botão direito do mouse, sobre o objeto.
+lCargo = Lógico = Indica se, verdadeiro (.T.), os elementos da Tree utilizarão a propriedade cCargo, do método AddItem(), que armazena uma string identificadora, para cada elemento e item da árvore; caso contrário, falso (.F.).
+lDisable = Lógico = Indica se, verdadeiro (.T.), cria o objeto da Tree desabilitado, ou seja, não permitindo foco e navegação no mesmo até que seja habilitado; caso contrário, falso (.F.).
+oFont = Objeto = Indica o objeto do tipo TFont utilizado para definir as características da fonte aplicada na exibição do conteúdo do controle visual.
+Retorno oObjeto() Retorna o objeto criado.
