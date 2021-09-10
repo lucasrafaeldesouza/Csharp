@@ -1,5 +1,6 @@
 <?php
 
+
 $paginas   ['HOME'] = '
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -11,22 +12,19 @@ $paginas   ['HOME'] = '
       <div class="carousel-item active">
         <img src="https://images7.alphacoders.com/115/1151173.jpg" height="600" width="500" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+         
         </div>
       </div>
       <div class="carousel-item">
         <img src="https://i.pinimg.com/originals/e1/dd/1a/e1dd1a6063a73c920d8a442cceed97e8.jpg" height="600" width="500" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+         
         </div>
       </div>
       <div class="carousel-item">
         <img src="https://compass-ssl.xbox.com/assets/84/28/8428c630-0a52-42c3-8521-181ab70f1ccb.jpg?n=299441_GLP-Page-Hero-1084_1920x1080.jpg" height="600" width="500" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+          
         </div>
       </div>
     </div>
@@ -275,16 +273,20 @@ $paginas   ['HOME'] = '
     
     }
     header{
-    background-color:#069;
+    background-image: url('https://data.1freewallpapers.com/download/game-over-4k-1920x1440.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     padding:8px 10px;
     text-align: center;
     padding-right: 900px; 
     font-family: 'Teko', sans-serif ;
-    font-size: 30px;
-    
+    font-size: 50px;
+
     }
     h2{
       color:black;
+      padding-left: 2000px;
     }
    
     a{
@@ -299,12 +301,15 @@ $paginas   ['HOME'] = '
         padding: 0 2%;
     }
     body{
-        
+        background-image: url('https://ovicio.com.br/wp-content/uploads/2021/06/20210609-battlefield-6.jpg');
+        background-repeat: no-repeat;
         background-color: white;
         background: linear-gradient(black,black,white);
     }
     p{
-        color: white;
+        color:white;
+        
+        
     } 
     img{
         text-align: center; 
@@ -332,7 +337,7 @@ $paginas   ['HOME'] = '
             
      }
     ?>
-    
+
     </header>
     <section>
     <h2>
@@ -351,6 +356,8 @@ $paginas   ['HOME'] = '
     </center>
     </section>
 <body>
+
+
 
 </body>
 </html>
