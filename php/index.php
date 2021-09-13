@@ -1,6 +1,34 @@
 <?php
 
+$paginas   ['LOGIN'] = '<link href="signin.css" rel="stylesheet">
+</head>
+<body class="text-center">
+  
+<main class="form-signin">
+<form>
+  <img class="mb-4" src="https://cdn.clubensc.com.br/Imagens/beneficio/173dfa79057f54f919321a6b0d4317a8-full.jpg" alt="" width="150" height="100">
+  <h1 class="h3 mb-3 fw-normal"></h1>
 
+  <div class="form-floating">
+    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <label for="floatingInput">Email address</label>
+  </div>
+  <div class="form-floating">
+    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+    <label for="floatingPassword">Password</label>
+  </div>
+
+  <div class="checkbox mb-3">
+    <label>
+      <input type="checkbox" value="remember-me"> Remember me
+    </label>
+  </div>
+  <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+  <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+</form>
+</main>
+';
+ 
 $paginas   ['HOME'] = '
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -128,6 +156,7 @@ $paginas   ['HOME'] = '
                   <h5 class="card-title"></h5>
                 
                                 <a href="#" class="btn btn-primary">COMPRAR</a>
+
                 </div>
               </div>
             </div>
@@ -167,7 +196,6 @@ $paginas   ['HOME'] = '
           </div>
         </div>
       </div>
-
 
       <div id="team-area">
         <div class="container">
@@ -235,19 +263,7 @@ $paginas   ['HOME'] = '
   
     '; 
 
-      $paginas   ['CONTATO'] = '<div class="col-md-6" id="contact-form">
-      <form action="">
-        <input type="text" class="form-control" placeholder="E-mail" name="email">
-        <input type="text" class="form-control" placeholder="Assunto" name="subject">
-        <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
-        <input type="submit" class="main-btn">
-      </form>
-    </div>
-      
-'; 
 
-
-  
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -270,7 +286,6 @@ $paginas   ['HOME'] = '
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
     }
     header{
     background-image: url('https://data.1freewallpapers.com/download/game-over-4k-1920x1440.jpg');
@@ -282,13 +297,11 @@ $paginas   ['HOME'] = '
     padding-right: 900px; 
     font-family: 'Teko', sans-serif ;
     font-size: 50px;
-
     }
     h2{
       color:black;
       padding-left: 2000px;
     }
-   
     a{
      display: inline-block;
      margin: 0 10px;
@@ -304,16 +317,13 @@ $paginas   ['HOME'] = '
         background-image: url('https://ovicio.com.br/wp-content/uploads/2021/06/20210609-battlefield-6.jpg');
         background-repeat: no-repeat;
         background-color: white;
-        background: linear-gradient(black,black,white);
+        background: linear-gradient(black,black,black);
     }
     p{
         color:white;
-        
-        
     } 
     img{
         text-align: center; 
-        
     }  
     h3{
         color: white;
@@ -324,20 +334,17 @@ $paginas   ['HOME'] = '
         color: black;
     }
   
-  
 </style>
 </head>
 <body>
     <header>
     
- 
     <?php
      foreach ($paginas as $key => $value) {
             echo '<a href="?page='.$key. '">'.$key.'</a>';
             
      }
     ?>
-
     </header>
     <section>
     <h2>
@@ -356,8 +363,6 @@ $paginas   ['HOME'] = '
     </center>
     </section>
 <body>
-
-
 
 </body>
 </html>
