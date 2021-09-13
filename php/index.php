@@ -8,7 +8,6 @@ $paginas   ['LOGIN'] = '<link href="signin.css" rel="stylesheet">
 <form>
   <img class="mb-4" src="https://cdn.clubensc.com.br/Imagens/beneficio/173dfa79057f54f919321a6b0d4317a8-full.jpg" alt="" width="150" height="100">
   <h1 class="h3 mb-3 fw-normal"></h1>
-
   <div class="form-floating">
     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
     <label for="floatingInput">Email address</label>
@@ -17,7 +16,6 @@ $paginas   ['LOGIN'] = '<link href="signin.css" rel="stylesheet">
     <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
     <label for="floatingPassword">Password</label>
   </div>
-
   <div class="checkbox mb-3">
     <label>
       <input type="checkbox" value="remember-me"> Remember me
@@ -64,7 +62,6 @@ $paginas   ['HOME'] = '
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-
   </div>
   <!--Trailer do Jogo-->
   <center><br>
@@ -87,29 +84,27 @@ $paginas   ['HOME'] = '
           </div>
         </div>
       </div>
-
-
     <footer><br>
     <div id="contact-area"><br> 
-      <div class="container">
+      <div class="container-fluid">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-6">
               <h3 class="main-title">Entre em contato conosco</h3>
             </div>
-            <div class="col-md-4 contact-box">
+            <div class="col-md-6 contact-box">
               <i class="fas fa-phone"></i>
               <p><span class="contact-tile">Ligue para:</span> (47)9 9610-5977</p>
               <p><span class="contact-tile">Horários:</span> 8:00 - 19:00</p>
             </div>
-            <div class="col-md-4 contact-box">
+            <div class="col contact-box">
               <i class="fas fa-envelope"></i>
               <p><span class="contact-tile">Envie um email:</span> faelsouza.rsg@hotmail.com</p>
             </div>
-            <div class="col-md-4 contact-box">
+            <div class="col contact-box">
               <i class="fas fa-map-marker-alt"></i>
               <p><span class="contact-tile">Venha tomar um café:</span> Rua Selma Doering Bruns - 361</p>
             </div>
-            <div class="col-md-6" id="msg-box">
+            <div class="col" id="msg-box">
               <p>Ou nos deixe uma mensagem:</p>
             </div>
             <div class="col-md-6" id="contact-form">
@@ -142,7 +137,6 @@ $paginas   ['HOME'] = '
     </form>
   </div>
 </nav>
-
 <div id="team-area">
         <div class="container">
           <div class="row">
@@ -156,7 +150,6 @@ $paginas   ['HOME'] = '
                   <h5 class="card-title"></h5>
                 
                                 <a href="#" class="btn btn-primary">COMPRAR</a>
-
                 </div>
               </div>
             </div>
@@ -196,7 +189,6 @@ $paginas   ['HOME'] = '
           </div>
         </div>
       </div>
-
       <div id="team-area">
         <div class="container">
           <div class="row">
@@ -249,7 +241,7 @@ $paginas   ['HOME'] = '
         </div>
       </div>'; 
 
-      $paginas   ['SOBRE'] = 'Fundada no ano de 2007, a Pichau Informática é uma empresa que trabalha com os mais variados produtos, atuando principalmente no setor de informática e equipamentos eletrônicos em geral, área bastante competitiva e em constante crescimento, onde qualidade, variedade, garantia e eficiência são critérios importantíssimos para total satisfação, confiança e preferência de nossos consumidores.
+      $paginas   ['SOBRE NÓS'] = 'Fundada no ano de 2007, a Pichau Informática é uma empresa que trabalha com os mais variados produtos, atuando principalmente no setor de informática e equipamentos eletrônicos em geral, área bastante competitiva e em constante crescimento, onde qualidade, variedade, garantia e eficiência são critérios importantíssimos para total satisfação, confiança e preferência de nossos consumidores.
   
     Além do nosso e-commerce possuímos uma loja física situada em Joinville/SC, onde temos a variedade de nosso site ao gosto dos mais exigentes clientes. Oferecemos não apenas a comodidade da compra online, mas também o tratamento olho no olho que muitos preferem e sempre confiam.
     
@@ -345,6 +337,7 @@ $paginas   ['HOME'] = '
             
      }
     ?>
+
     </header>
     <section>
     <h2>
