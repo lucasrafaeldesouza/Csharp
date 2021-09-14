@@ -30,40 +30,47 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 	
-<style>
+	<style>
     *{
       border-radius: 0 !important;
     }
-     .mj_001{
-      margin: 10px;
-      padding-left: 180px;  
+	.mj_001{
+	  margin: 10px;
+          padding-left: 180px;  
 	}
-   .mj_002{
-     width: 200%;
-     height: 70px;
+	.mj_002{
+	  width: 200%;
+	  height: 70px;
 	}
   .mj_003{
-    width: 38%;
-    height: 45px; 
-    padding-left: 40px;
+         width: 38%;
+         height: 45px; 
+         padding-left: 40px;
   }
   .mj_004{
-     width: 40%;
-     height: 50px; 
+	width: 40%;
+	height: 50px; 
   }
   P{
-    color: blue;
-    font-size: large;
-    padding-left: 25px;
+    	color: blue;
+	font-size: large;
+	padding-left: 25px;
   }
   body{
-   padding-right: 40px;
+        padding-right: 25px;
   }
+
 </style>
-</head>
+  </head>
 
   <body>
 
+    <nav class="navbar navbar-light bg-red">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Painel - Processos de Produção</a>
+      </div>
+    </nav>
+      
       <center> 
         <P>Processos de Produção</P><br>
       </center>
