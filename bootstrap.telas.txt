@@ -30,71 +30,97 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 	
-	<style>
+<style>
     *{
       border-radius: 0 !important;
     }
-	.mj_001{
-		margin: 10px
+     .mj_001{
+      margin: 10px;
+      padding-left: 180px;  
 	}
-	.mj_002{
-		width: 100%;
-		height: 80px
+   .mj_002{
+     width: 200%;
+     height: 70px;
 	}
-	</style>
-  </head>
+  .mj_003{
+    width: 38%;
+    height: 45px; 
+    padding-left: 40px;
+  }
+  .mj_004{
+     width: 40%;
+     height: 50px; 
+  }
+  P{
+    color: blue;
+    font-size: large;
+    padding-left: 25px;
+  }
+  body{
+   padding-right: 40px;
+  }
+</style>
+</head>
 
   <body>
 
-    <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">About</a></li>
-            <li role="presentation"><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">Project name</h3>
+      <center> 
+        <P>Processos de Produção</P><br>
+      </center>
       </div>
 
-
-      <div class="row">
+      <center> 
+      <div class="row"><br>
 	  
         <div class="col-md-3 mj_001">
-          <button type="button" class="btn btn-default btn-lg mj_002">Apontamento 1</button>
+          <button type="button" class="btn btn-default btn-lg mj_002">F1. Vulcanização</button>
         </div>
         
         <div class="col-md-3 mj_001">
-          <button type="button" class="btn btn-default btn-lg mj_002">Apontamento 2</button>
+          <button type="button" class="btn btn-default btn-lg mj_002">F2. Rebarbação</button>
         </div>
         
         <div class="col-md-3 mj_001">
-          <button type="button" class="btn btn-default btn-lg mj_002">Apontamento 3</button>
+          <button type="button" class="btn btn-default btn-lg mj_002">F3. Pós-Cura</button>
         </div>
         
         <div class="col-md-3 mj_001">
-          <button type="button" class="btn btn-default btn-lg mj_002">Apontamento 4</button>
+          <button type="button" class="btn btn-default btn-lg mj_002">F4. Seleção</button>
         </div>
         
         <div class="col-md-3 mj_001">
-          <button type="button" class="btn btn-default btn-lg mj_002">Apontamento 5</button>
+          <button type="button" class="btn btn-default btn-lg mj_002">F5. Inspeção
+            Final</button>
         </div>
         
           <div class="col-md-3 mj_001">
-          <button type="button" class="btn btn-default btn-lg mj_002">Apontamento 5</button>
+          <button type="button" class="btn btn-default btn-lg mj_002">F6. Embalgem</button>
         </div>
   
       </div>
 
-      <footer class="footer">
-        <p>&copy; 2016 Company, Inc.</p>
-      </footer>
+      <div class="row">
+	  
+        <div class="col-md-3 mj_001">
+          <button type="button" class="btn btn-default btn-lg mj_002">F7. Cópia</button>
+        </div>
+        
+        <div class="col-md-3 mj_001">
+          <button type="button" class="btn btn-default btn-lg mj_002">F8. Rastreamento</button>
+        </div>
+        
+        <div class="col-md-3 mj_001">
+          <button type="button" class="btn btn-default btn-lg mj_002">F9. Apontamento</button>
+        </div>
+        
+      </div><br>
 
-    </div> <!-- /container -->
+    </center>
 
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
-</html>
+      <center> 
+      <div class="row"><br>
+	     
+        <div class="col mj_003">
+          <button type="button" class="btn btn-default btn-lg mj_004 "> Sair </button>
+        </div>
+      </center>
