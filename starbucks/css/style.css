@@ -28,7 +28,7 @@ header{
     text-align: right;
 }
 .menu a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     margin-right: 15px;
@@ -61,13 +61,15 @@ section.sobre{
     margin-top: 100px;
 }
 .texto-sobre h1{
-    font-size: 50px;
-    font-family: 'Teko', sans-serif ;
+    font-size: 80px;
+    font-family: 'Blinker', sans-serif;
+    color:white;
+   
 }
 .texto-sobre p{
     margin: 20px 0;
     color:black;
-    font-size: 14px;
+    font-size: 25px;
     font-weight: bold;
     max-width: 500px;
     font-family: 'Teko', sans-serif ;
@@ -80,4 +82,8 @@ section.sobre{
    width: 80px;
    height: 30px;
    cursor: pointer;
+}
+body{
+    background-image: url('https://wallpapercave.com/wp/99KlGYb.jpg');
+    background-repeat: no-repeat;
 }
