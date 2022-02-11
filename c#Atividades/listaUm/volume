@@ -1,0 +1,15 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{	
+ 		double  largura = 200.5;
+        double 	altura = 75.5;
+        double 	profundidade = 50.5;
+       
+        double volume =  (largura * altura * profundidade);
+        
+       Console.WriteLine(volume);	
+	}
+}

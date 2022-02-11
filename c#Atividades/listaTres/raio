@@ -1,0 +1,19 @@
+using System;
+public class Program {
+   public static void Main() {
+        
+        try {
+            double raio = 0.0, c = 0.0, area = 0.0;
+
+            Console.WriteLine("Informe o raio: ");
+            raio = double.Parse(Console.ReadLine());
+
+            c = 2* (Math.PI) * raio;
+            area = Math.PI*(raio * raio);
+
+            Console.WriteLine("\nRaio: " + raio + "\nCircunferência: " + c + "\nÁrea: " + area);
+        } catch (Exception){
+			
+      }
+   }
+}

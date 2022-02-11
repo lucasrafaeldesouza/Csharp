@@ -1,0 +1,15 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{	
+		float ladoUm = 200;
+        float ladoDois = 100;
+       
+        
+        float area = (ladoUm * ladoDois);
+        
+        Console.WriteLine(area);	
+	}
+}

@@ -1,0 +1,19 @@
+using System;
+public class Program {
+   public static void Main() {
+        int qtde;
+        double acumula=0;
+        double nota=0;
+ 
+        Console.Write("Digite a quantidade de notas: ");
+        qtde = int.Parse(Console.ReadLine());
+        
+        for(int i=1; i<=qtde; i++){
+            Console.Write("\nInforme a "+ i +"° nota");
+            nota = int.Parse(Console.ReadLine());
+            acumula = acumula + nota;
+        }
+        
+        Console.Write("\n- A média das notas é: " + (acumula / qtde));
+   }
+}

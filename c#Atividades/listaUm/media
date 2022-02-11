@@ -1,0 +1,14 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{	
+		int nota = 10;
+		int notaDois = 7;
+		int notaTres = 6;
+			
+		int media = (nota + notaDois + notaTres )/3;
+		Console.WriteLine(media);	
+	}
+}

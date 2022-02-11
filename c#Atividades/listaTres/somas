@@ -1,0 +1,28 @@
+using System;
+public class Program {
+   public static void Main() {
+	
+        int A = 0;
+        int B = 0;
+        int adicao;
+        int subtracao;
+        int multiplicacao;
+        int divisao;
+ 
+        Console.Write("Digite o 1º valor: ");
+        A = int.Parse(Console.ReadLine());
+	   
+        Console.Write("Digite o 2º valor: ");
+        B = int.Parse(Console.ReadLine());
+ 
+        adicao = ((A + B));
+        subtracao = (A - B);
+        multiplicacao = (A * B);
+        divisao = (A / B);
+ 
+        Console.WriteLine("\n" + A + " + " + B + " = " + adicao);
+        Console.WriteLine(+A + " - " + B + " = " + subtracao);
+        Console.WriteLine(+A + " * " + B + " = " + multiplicacao);
+        Console.WriteLine(+A + " / " + B + " = " + divisao);
+   }
+}
