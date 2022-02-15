@@ -2,7 +2,7 @@ using System;
 public class Program {
    public static void Main() {
  	
-	    double media;
+	double media;
         double acumula=0;
         double temp=0;
  
