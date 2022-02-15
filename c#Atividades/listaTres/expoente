@@ -1,8 +1,9 @@
 using System;
+
 public class Program {
    public static void Main() {
 	   
-      		int num, exp;
+      	    int num, exp;
 
             Console.WriteLine("Vamos calcular o expoente");
             Console.WriteLine("");
@@ -13,9 +14,7 @@ public class Program {
             Console.Write("Digite um expoente: ");
             exp = int.Parse(Console.ReadLine());
 	   
-	   		double result = Math.Pow(num, exp);
-
-			Console.WriteLine("\n O número " + num + " elevado ao expoente " + exp + " é igual a " + result + "\n");
-	  
+	    double result = Math.Pow(num, exp);
+            Console.WriteLine("\n O número " + num + " elevado ao expoente " + exp + " é igual a " + result + "\n");	  
    }
 }
