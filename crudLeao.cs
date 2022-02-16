@@ -2,8 +2,6 @@
 Grupo: Rafael, Lucas e Maria
 Data: 15/02/2022 
 */
-
-
 using System;
 using System.Collections.Generic;
 
